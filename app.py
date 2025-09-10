@@ -4,13 +4,13 @@ app = Flask(__name__)
 
 @app.get("/")
 def home():
-    return "מה הולךךךךךךךךך"
+    return "hello word"
 
 
-@app.get("/kmujk/")
+@app.get("/page/")
 def fgff():
-    return "מה ,mi9o9oijh"
+    return "this is good"
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5500)
-    # nadav בדיקהההה
+    # nadav
